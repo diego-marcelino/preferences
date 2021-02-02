@@ -7,6 +7,8 @@ sudo apt update
 sudo apt install -y git
 sudo apt install -y curl
 sudo apt install -y fonts-cascadia-cod
+sudo apt install -y dconf-editor  # for save and restore terminal configurations
+
 
 # github.com/sharkdp/bat
 sudo apt install -y bat

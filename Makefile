@@ -7,3 +7,5 @@ backup: get_current_config
 
 get_current_config:
 	@cp -f ~/.vimrc configs/
+	@./gnome-terminal-profile.sh export configs/terminal.profile
+ 
