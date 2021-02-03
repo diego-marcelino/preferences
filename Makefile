@@ -7,5 +7,6 @@ backup: get_current_config
 
 get_current_config:
 	@cp -f ~/.vimrc configs/
+	@cp -f ~/.oh-my-zsh/themes/diego-ubuntu.zsh-theme configs/
 	@./gnome-terminal-profile.sh export configs/terminal.profile
- 
+

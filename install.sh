@@ -34,7 +34,7 @@ sudo apt install -y zsh
 # oh my zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-THEME=agnoster
+THEME=diego-ubuntu
 PLUGINS="git asdf autopep8 django dotenv docker docker-compose golang history pep8 python tmux ubuntu"
 
 sed -i -r "s/^(ZSH_THEME=\")(\w*)/\1$THEME/" ~/.zshrc
