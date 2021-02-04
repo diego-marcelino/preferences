@@ -12,7 +12,7 @@ ZSH_THEME_RUBY_PROMPT_SUFFIX="›%{$reset_color%}"
 
 PROMPT='
 %{$fg_bold[blue]%}%~%{$reset_color%}$(git_prompt_info) 🕓  %{$fg_bold[cyan]%}%*%{$reset_color%}
-> '
+➙ '
 
 RPROMPT='$(ruby_prompt_info)'
 
