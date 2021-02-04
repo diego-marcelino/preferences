@@ -3,6 +3,7 @@ backup: get_current_config
 	@git checkout bkps >> /dev/null
 	@git add configs/	
 	@git commit -m "backup $(shell date --iso=minutes)"
+	@git push
 	@git checkout main >> /dev/null
 
 get_current_config:
