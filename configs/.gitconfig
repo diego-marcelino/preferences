@@ -1,0 +1,13 @@
+[core]
+  editor = vim
+  pager = delta
+[diff]
+	tool = vimdiff
+[difftool]
+  prompt = false
+[difftool "vimdiff"]
+  cmd = vimdiff "$LOCAL" "$REMOTE"
+[merge]
+  tool = vimdiff
+[delta]
+  side-by-side = true

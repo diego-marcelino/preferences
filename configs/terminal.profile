@@ -5,6 +5,7 @@ cell-width-scale=1.0
 default-size-columns=80
 font='Ubuntu Mono 14'
 login-shell=false
+scrollbar-policy='never'
 use-system-font=false
 use-theme-transparency=false
 visible-name='diego-normal'
