@@ -33,3 +33,7 @@ sudo apt install -y tmux
 sudo apt install -y vim-gtk3
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/vim.gtk3 1
 sudo update-alternatives --set editor /usr/bin/vim.gtk3
+
+# Vim Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qal
